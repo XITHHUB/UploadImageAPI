@@ -3,7 +3,7 @@
 $host = 'localhost';
 $dbname = 'user_auth_db';
 $username = 'root';
-$password = 'Xvas44302117';
+$password = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
